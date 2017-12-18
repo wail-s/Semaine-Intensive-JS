@@ -1,0 +1,49 @@
+body {
+}
+
+/* HEADER ---------------------------------------*/
+.header {
+	background: #000;
+	
+	height: 18vh;
+	padding: 0 6% 0 6%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#title {
+	color: #fff;
+	background: #000;
+
+	font-family: "Helvetica";
+	font-size: 1.5em;
+	letter-spacing: 0.2em;
+}
+#title span {
+	color: #FFE07F;
+}
+.headerContainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.headerSearchImg {
+	width: 16px;
+	height: 16px;
+
+	margin: 0 25px;
+}
+.headerConnect-link {
+}
+.headerConnectImg {
+	width: 32px;
+	height: 32px;
+}
+.movieImg {
+	width: 350px;
+	height: 200px;
+}
+.hiddenMenu {
+	display: none;
+}

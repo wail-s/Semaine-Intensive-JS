@@ -39,7 +39,7 @@ body {
 	color: #fff;
 	background: #000;
 
-	font-family: "Helvetica";
+	font-family: "HelveticaNeue-Bold";
 	font-size: 1.5em;
 	letter-spacing: 0.2em;
 }
@@ -55,7 +55,7 @@ body {
 	width: 16px;
 	height: 16px;
 
-	margin: 0 25px;
+	margin: 0 50px;
 }
 .headerConnect-link {
 	background: url(../img/icon/user-hover.svg);
@@ -127,7 +127,7 @@ body {
 	opacity: 0.5;
 	cursor: pointer;
 
-	transition: all 0.2s
+	transition: all 0.3s
 }
 .movieContainer:hover {
 	opacity: 1;
@@ -178,7 +178,8 @@ body {
 	color: #fff;
 
 	text-transform: uppercase;
-	font-family: Helvetica;
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	letter-spacing: 0.1em;
 	font-size: 0.875em;
 }
 .categoriesList {
@@ -194,10 +195,11 @@ body {
 	margin-left: 20px;
 	text-decoration: none;
 	font-size: 0.875em;
-	font-family: "Helvetica";
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 
-	transition: all 0.2s;
+	transition: all 0.3s;
 }
 .categoriesListItems-link:hover {
 	color: #FFE07F;
@@ -211,19 +213,65 @@ body {
 }
 .categoriesButton {
 	color: #fff;
-	font-family: Helvetica;
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	text-decoration: none;
 
-	transition: all 0.2s;
+	transition: all 0.3s;
 
 }
 .categoriesButton:hover {
 	color: #FFE07F;
 }
+
+/* SUBMIT ---------------------------------------*/
+.submit {
+	background: #222222;
+	margin: 8vh auto;
+	padding: 5vh 0;
+	height: 15vh;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+.submitTitle {
+	color: #fff;
+
+	font-family: Cabin;
+	font-size: 1.125em;
+}
+.submitText {
+	color: #9B9B9B;
+
+	font-family: Cabin;
+	font-size: 0.75em;
+}
+.submitButton {
+	color: #fff;
+
+	padding: 10px 50px;
+
+	font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue";
+	letter-spacing: 0.1em;
+	font-size: 0.875em;
+
+	border: 1px #FFE07F solid;
+
+	text-decoration: none;
+
+	transition: all 0.3s
+
+}
+.submitButton:hover {
+	background: #FFE07F;
+	color: #000;
+}
 /* FOOTER ---------------------------------------*/
 .footer {
-	background: #6F6F6F;
+	background: #000;
 
 	height: 10vh;
 	width: 88%;
@@ -249,7 +297,7 @@ body {
 
 	margin-right: 20px;
 
-	font-family: "Helvetica";
+	font-family: "HelveticaNeue-Bold";
 	font-size: 1em;
 	letter-spacing: 0.2em;
 }
@@ -266,7 +314,7 @@ body {
 	font-size: 0.80em;
 	text-decoration: none;
 
-	transition: all 0.2s;
+	transition: all 0.3s;
 }
 .footerListItems-link:hover {
 	color: #FFE07F;

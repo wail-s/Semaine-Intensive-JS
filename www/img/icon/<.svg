@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="22px" height="44px" viewBox="0 0 22 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="18px" height="35px" viewBox="0 0 18 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
     <title>&lt;</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="25" height="49"></rect>
+        <rect id="path-1" x="0" y="0" width="20.4081633" height="40"></rect>
     </defs>
-    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-73.000000, -287.000000)">
-        <g id="&lt;" transform="translate(82.500000, 308.500000) rotate(-180.000000) translate(-82.500000, -308.500000) translate(70.000000, 284.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <g id="Rectangle-3"></g>
-            <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="2" mask="url(#mask-2)" transform="translate(0.000000, 24.000000) rotate(-225.000000) translate(-0.000000, -24.000000) " x="-14" y="10" width="28" height="28"></rect>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-78.000000, -269.000000)">
+        <g id="CARROUSEL" transform="translate(0.000000, 70.000000)">
+            <g id="&lt;" transform="translate(84.908163, 216.000000) rotate(-180.000000) translate(-84.908163, -216.000000) translate(74.408163, 196.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle-3"></g>
+                <rect id="Rectangle-2" stroke="#FFFFFF" stroke-width="2" mask="url(#mask-2)" transform="translate(0.000000, 19.591837) rotate(-225.000000) translate(-0.000000, -19.591837) " x="-11.244898" y="8.34693878" width="22.4897959" height="22.4897959"></rect>
+            </g>
         </g>
     </g>
 </svg>

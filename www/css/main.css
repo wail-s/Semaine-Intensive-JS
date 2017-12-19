@@ -29,7 +29,11 @@ body {
 	align-items: center;
 	
 	position: fixed;
+	z-index: 1;
 	opacity: 1;
+}
+.container {
+
 }
 #title {
 	color: #fff;
@@ -96,7 +100,6 @@ body {
 	color: #fff;
 
 	height: 10vh;
-	padding-bottom: 5px;
 
 	font-size: 1.25em;
 	font-family: Cabin;
@@ -149,6 +152,75 @@ body {
 	display: none;
 }
 
+/* CATEGORIES -----------------------------------*/
+.categories {
+	width: 88%;
+	margin: 0 auto;
+	padding: 0 6% 0 6%;
+}
+.categoriesMenuContainer {
+	display: flex;
+	justify-content: space-between;
+}
+.categoriesTitle {
+	color: #fff;
+
+	height: 10vh;
+	padding-bottom: 7px;
+
+	font-size: 1.25em;
+	font-family: Cabin;
+	
+	display: flex;
+	align-items: flex-end;
+}
+.categoriesText {
+	color: #fff;
+
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-size: 0.875em;
+}
+.categoriesList {
+	padding-bottom: 5px;
+
+	display: flex;
+	align-items: flex-end;
+
+}
+.categoriesListItems-link {
+	color: #9B9B9B;
+
+	margin-left: 20px;
+	text-decoration: none;
+	font-size: 0.875em;
+	font-family: "Helvetica";
+	text-transform: uppercase;
+
+	transition: all 0.2s;
+}
+.categoriesListItems-link:hover {
+	color: #FFE07F;
+}
+.categoriesMoviesContainer {
+	height: 62vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.categoriesButton {
+	color: #fff;
+	font-family: Helvetica;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	transition: all 0.2s;
+
+}
+.categoriesButton:hover {
+	color: #FFE07F;
+}
 /* FOOTER ---------------------------------------*/
 .footer {
 	background: #6F6F6F;
@@ -213,6 +285,7 @@ body {
 	margin: 0 5px;
 }
 .footerText {
+	color: #FFE07F;
 	margin-top: 7px;
 	font-family: Cabin;
 	font-size: 0.75em;
